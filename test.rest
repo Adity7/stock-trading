@@ -1,0 +1,10 @@
+###
+GET http://localhost:5353/api/stock?stock=mrna&password=1234
+
+###
+POST http://localhost:5353/api/test
+Content-Type: application/json
+
+{
+    "message" : "Hello World"
+}
